@@ -1,0 +1,27 @@
+<section id="blog" class="full">
+	<div class="wrapper">
+		<%= tag :img, :src => "/images/hints-tips.svg", :height => '195px', :width => '223px', :class => 'hints-and-tips' %>
+		<header class="sub-title">
+			<h2>Hints &amp; Tips</h2>
+		</header>
+		
+		
+		<% blog('blog').articles[0...2].each do |article| %>
+
+			<article class="post">
+				<h3>
+					<a href="<%= article.url %>"><%= article.title %></a>
+				</h3>
+				<p class="meta"><small>Posted on: <%= article.date.strftime('%b %e %Y') %> | Categorised under: <%= article.data.category %> </small></p>
+				<div class="desc">
+					<%= tag :img, :src => "/images/post-example.jpg", :height => '120px', :width => '78px', :class => 'blog-feat' %>
+					<%= article.data.excerpt %>
+				</div>
+				<a href="<%= article.url %>" class="btn">Continue</a>
+				<p class="bottom-meta meta"><small>Posted by: Miroslav Naskovic</small></p>
+			</article>
+		
+		<% end %>
+		
+	</div>
+</section>

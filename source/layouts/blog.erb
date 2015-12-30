@@ -1,0 +1,20 @@
+<%= partial 'partials/head' %>
+	<%= partial 'partials/header' %>
+		<div class="container std col-three">
+			<div class="wrapper">
+				<header class="page-title">
+					<h1><%= current_page.data.maintitle %></h1>
+				</header>
+				<div class="introtext">
+					<h3><%= current_page.data.introtext %></h3>
+				</div>
+				<%= partial 'partials/sidebar-left' %>
+	    		<div class="content">
+		    		<%= yield %>
+	    		</div>
+	    		<%= partial 'partials/sidebar-right' %>
+			</div>
+		</div>
+		<%= partial 'partials/contact' %>
+    <%= partial 'partials/footer' %>
+<%= partial 'partials/foot' %>  
