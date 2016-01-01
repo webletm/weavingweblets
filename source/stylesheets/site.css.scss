@@ -608,6 +608,7 @@ body.portfolio .port:last-child{
 	padding: 20px 45px;
 	margin: 0px auto 20px;
 	background: #f3f3f3;
+	clear: left;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	-o-border-radius: 8px;
@@ -701,10 +702,10 @@ body.portfolio .port:last-child{
 }
 img.alignright{
 	float: right;
-	margin: 0px 0px 15px 20px;
+	margin: 5px 0px 15px 20px;
 }
 img.alignleft{
-	margin: 0px 20px 15px 0px;
+	margin: 5px 20px 15px 0px;
 	float: left;
 }
 .col-one .content{
@@ -729,7 +730,9 @@ code{
 	overflow: hidden;
 	font: normal normal 13px/140% "Courier New", Courier, monospace;
 }
-
+.content img{
+	max-width: 100%;
+}
 
 
 

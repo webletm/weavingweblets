@@ -49,6 +49,9 @@ activate :blog do |blog|
 	blog.permalink = "blog/{category}/:year-:month-:day-:title"
 	blog.layout = "blog"
 	blog.sources = "blog/:title.html"
+	blog.paginate = true
+	blog.page_link = "p{num}"
+	blog.per_page = 2
 end
 
 

@@ -7,7 +7,7 @@ layout: services
 
 ##Logo Design
 
-Your logo is a critical aspect of business marketing. It’s what your clients and competitors will familiarize themselves with and become the single most visible manifestation of the company within your market place. 
+<img src="images/logo-design2.jpg" width="200" height="auto" alt="Logo design" class="alignleft" />Your logo is a critical aspect of business marketing. It’s what your clients and competitors will familiarize themselves with and become the single most visible manifestation of the company within your market place. 
 
 Your logo must be unique and comprehensible. At the end of the day, your logo is a representation of who you are and says a lot more about the company than you may think.
 
@@ -21,7 +21,7 @@ The branding process is an extensive one however. Be aware that a proper brandin
 
 ##Website Design
 
-Designing a website is a funny game. In all cases, it doesn’t even start off with a designer. We have an extensive process of evaluating your companies:
+<img src="images/website-design.jpg" width="200" height="auto" alt="Logo design" class="alignright" />Designing a website is a funny game. In all cases, it doesn’t even start off with a designer. We have an extensive process of evaluating your companies:
 
 *	Culture
 *	Staff
@@ -46,7 +46,7 @@ At the end of the day, a dull non functional website is useless. And no business
 
 After a fresh rebrand and stunning new website, you’re going to want to throw out those old school business cards and get some nice new business cards printed up on some really crafty paper.
 
-You might also want to promote some of your new services with some visually appealing info graphics (Pamphlets). 
+<img src="images/print-design.jpg" width="200" height="auto" alt="Logo design" class="alignleft" />You might also want to promote some of your new services with some visually appealing info graphics (Pamphlets). 
 
 We can even get your company car done up in some branded vinyl wrapping. 
 

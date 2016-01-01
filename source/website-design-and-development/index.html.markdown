@@ -7,7 +7,7 @@ layout: services
 
 ##Information Websites
 
-<img src="images/information-websites.png" alt="Information Websites" class="alignright" />Websites have come a long way in just the last 5 years. This also means that there are now more options than ever to chose from. So, when it’s time for you to make a decision about what you’re going to do about your website, it may send you into a nervous breakdown. 
+<img src="images/information-websites.jpg" width="143" height="auto" alt="Information Websites" class="alignright" />Websites have come a long way in just the last 5 years. This also means that there are now more options than ever to chose from. So, when it’s time for you to make a decision about what you’re going to do about your website, it may send you into a nervous breakdown. 
 
 “Why do prices differ so much??? Really, what is the difference?” “How do I update my website?”  These are just a few things that may come to mind when seeking help about a website.
 
@@ -30,7 +30,7 @@ Yes, actual developers. Not somebody that say’s “I can build a WordPress web
 
 Need to take payment online, ship your goods with automatic freight calculators and sync this up with your physical storefront? Heck, we can also sync your sales up to your accounting software too! Whatever it is you need to do to streamline your sales online, we’d love to get involved!
 
-<img src="images/ecommerce-websites.png" alt="Information Websites" class="alignright" />For offline businesses, POS installation and integration will make your business operating experience truly enjoyable.
+<img src="images/ecommerce-websites.jpg" width="168" height="auto" alt="Information Websites" class="alignright" />For offline businesses, POS installation and integration will make your business operating experience truly enjoyable.
 
 Before you jump right in to it though, it would be a very good idea to sit down and select the right platform for the job based on what your functional requirements are.
 
@@ -40,7 +40,7 @@ Before you jump right in to it though, it would be a very good idea to sit down 
 
 ##Resource Space
 
-<img src="images/resource-space.png" alt="Information Websites" class="alignright" />Resource space is a media bank application. Basically, 
+Resource space is a media bank application. Basically, 
 an online storage web system. 
 
 This gives such companies like:
@@ -52,7 +52,7 @@ This gives such companies like:
 
 A place to store their digital assets and share a complete directory with another user or group of users via a link.
 
-<img src="images/resource-space-2.png" alt="Information Websites" class="alignleft" />The benefits of this is that when uploading an image, we can set different versions of the image to be generated upon the upload from a raw file. So when the user is downloading that image, they can either download the raw file or chose a web version. Maybe even a cropped out version.
+<img src="images/resource-space.jpg" width="190" height="auto" alt="Information Websites" class="alignleft" />The benefits of this is that when uploading an image, we can set different versions of the image to be generated upon the upload from a raw file. So when the user is downloading that image, they can either download the raw file or chose a web version. Maybe even a cropped out version.
 
 You also have the ability to create albums. So as a photographer, you can organize your shoots in albums or projects.
 
