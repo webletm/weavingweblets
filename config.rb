@@ -46,12 +46,14 @@ end
 activate :blog do |blog|
 	# set options on blog
 	blog.name = "blog"
-	blog.permalink = "blog/{category}/:year-:month-:day-:title"
+	blog.permalink = "blog/{category}/{title}"
 	blog.layout = "blog"
 	blog.sources = "blog/:title.html"
 	blog.paginate = true
 	blog.page_link = "p{num}"
 	blog.per_page = 2
+	blog.tag_template = "tag.html"
+  	blog.calendar_template = "calendar.html"
 end
 
 

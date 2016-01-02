@@ -1,0 +1,35 @@
+---
+title: Blog Archive
+pageable: true
+---
+
+		<div class="container std col-three">
+			<div class="wrapper">
+				<header class="page-title">
+					<h1><%= current_page.data.maintitle %></h1>
+				</header>
+				<div class="introtext">
+					<h3><%= current_page.data.introtext %></h3>
+				</div>
+				<%= partial 'partials/sidebar-left' %>
+	    		<div class="content">
+		    		<% blog.articles.each do |article| %>
+					  <article class="post">
+							<h3>
+								<a href="<%= article.url %>"><%= article.title %></a>
+							</h3>
+							<p class="meta"><small>Posted on: <%= article.date.strftime('%b %e %Y') %> | Categorised under: <%= article.data.category %> </small></p>
+							<div class="desc">
+								<%= tag :img, :src => "/images/post-example.jpg", :height => '120px', :width => '78px', :class => 'blog-feat' %>
+								<%= article.data.excerpt %>
+							</div>
+							<a href="<%= article.url %>" class="btn">Continue</a>
+							<!-- <p class="bottom-meta meta"><small>Posted by: Miroslav Naskovic</small></p> -->
+						</article>
+					<% end %>
+	    		</div>
+	    		<%= partial 'partials/sidebar-right' %>
+			</div>
+		</div>
+		<%= partial 'partials/contact' %>
+
