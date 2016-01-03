@@ -354,6 +354,7 @@ h1 {
 }
 .imac-img, .ipad-img, .iphone-img{
 	position: absolute;
+	height: 100%;
 	left: 0px;
 	top: 0px;
 	z-index: 0;
@@ -1094,7 +1095,7 @@ code{
 	}
 	#contact .widget, #contact .widget:nth-child(2n){
 		width: 100%;
-		margin: 0px 0px 40px;
+		margin: 0px 0px 40px !important;
 	}
 	#contact .widget h3{
 		margin-top: 15px;
