@@ -3,18 +3,48 @@
 		<div class="container std col-three">
 			<div class="wrapper">
 				<header class="page-title">
-					<h1><%= current_page.data.maintitle %></h1>
+					<h1>
+						<%= current_page.data.maintitle %>
+					</h1>
 				</header>
 				<div class="introtext">
 					<h3><%= current_page.data.introtext %></h3>
 				</div>
 				<%= partial 'partials/sidebar-left' %>
-	    		<div class="content">
+	    		<div class="content service-content">
 		    		<%= yield %>
 	    		</div>
-	    		<%= partial 'partials/sidebar-right' %>
+	    		<% if current_page.url == '/website-design-and-development/' %>
+					<%= partial 'partials/services/sidebar-website' %>
+				<% elsif current_page.url == '/branding-and-graphic-design/' %>
+					<%= partial 'partials/services/sidebar-design' %>
+				<% elsif current_page.url == '/google-search-advertising/' %>
+					<%= partial 'partials/services/sidebar-advertising' %>
+				<% end %>
 			</div>
+			<%= partial 'partials/contact' %>
 		</div>
-		<%= partial 'partials/contact' %>
+		
     <%= partial 'partials/footer' %>
+    <script>
+    	jQuery(window).ready(function($){
+    		var $sidebar   = $(".sidebar"), 
+	        $window    = $(window),
+	        offset     = $sidebar.offset(),
+	        offsetBottom = $('#contact').offset(),
+	        topPadding = 15;
+	       console.log(offsetBottom.top);
+		    $window.scroll(function() {
+		        if ($window.scrollTop() > offset.top && ($window.scrollTop() + $('.sidebar-right').height()) < offsetBottom.top ) {
+		            $sidebar.stop().animate({
+		                marginTop: $window.scrollTop() - offset.top + topPadding
+		            });
+		        }else {
+		            $sidebar.stop().animate({
+		            	marginTop: 0
+		            });
+		        }
+		    });
+    	});
+    </script>
 <%= partial 'partials/foot' %>  

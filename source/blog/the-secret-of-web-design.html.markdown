@@ -3,6 +3,7 @@ title: "The secret of web design"
 maintitle: "The secret of web design"
 date: 2015/05/14
 category: Website Design
+featimg: artistic-architecture-snail-300x263.jpg
 excerpt: I remember when growing up the most emphasised family value from my parents was Manners. Manners that shows you how to communicate with different age group, different background and different personality. In fact over the years out of all the family rules, not many have left in me nor seemed practical to me, yet manner is still on top of the list.
 ---
 

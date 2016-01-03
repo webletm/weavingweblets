@@ -1,11 +1,11 @@
 <aside class="sidebar sidebar-left">
 	<h3 class="sidebar-title">Main Services</h3>
 	<nav class="sidebar-menu">
-		<a href="/website-design-and-development">Website</a>
+		<a <%= is_page_active('/website-design-and-development/') %> href="/website-design-and-development">Website</a>
 		<nav class="sub-menu"></nav>
-		<a href="/branding-and-graphic-design">Design</a>
+		<a <%= is_page_active('/branding-and-graphic-design/') %> href="/branding-and-graphic-design">Design</a>
 		<nav class="sub-menu"></nav>
-		<a href="/google-search-advertising">Advertising</a>
+		<a <%= is_page_active('/google-search-advertising/') %> href="/google-search-advertising">Advertising</a>
 		<nav class="sub-menu"></nav>
 	</nav>
 </aside>

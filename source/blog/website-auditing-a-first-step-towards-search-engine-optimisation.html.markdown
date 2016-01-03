@@ -1,8 +1,9 @@
 ---
-title: "Website auditing – a first step towards search engine optimisation"
-maintitle: "Website auditing – a first step towards search engine optimisation"
+title: "Website auditing – first step towards search engine optimisation"
+maintitle: "Website auditing – first step towards search engine optimisation"
 date: 2015/05/14
 category: Search Engine Marketing
+featimg: men-sunrise-field-300x263.jpg
 excerpt: If we were the one to name this type of SEO service, we would rather name it “Website Inspection” so it’s self explanatory. As it suggests, it’s a service that identifies all the issues appeared on your website which are not recommended by search engine, web authority such as W3C or SEO professionals.
 ---
 

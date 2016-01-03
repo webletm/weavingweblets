@@ -3,6 +3,7 @@ title: "SEO and manners"
 maintitle: "SEO and manners"
 date: 2015/05/14
 category: Search Engine Optimisation
+featimg: hall-people-300x263.jpg
 excerpt: I remember when growing up the most emphasised family value from my parents was Manners. Manners that shows you how to communicate with different age group, different background and different personality. In fact over the years out of all the family rules, not many have left in me nor seemed practical to me, yet manner is still on top of the list. The reason is simple – I used it all the time when dealing with people I knew little.
 ---
 

@@ -3,7 +3,16 @@
 	$(function () {
 		'use strict';
 		hero();
+		btnScroll();
+		
 	});
+
+	function btnScroll(){
+		$('a[href="#contact"]').on('click', function(a){
+			a.preventDefault();
+			$('html, body').animate({scrollTop: $('#contact').offset().top}, 300);
+		})
+	}
 	
 	function hero(){
 		var $img = $('.hero-img'),

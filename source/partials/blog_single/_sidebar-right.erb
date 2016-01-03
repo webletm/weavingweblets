@@ -1,0 +1,8 @@
+<aside class="sidebar sidebar-right">
+	<h3 class="sidebar-title">Latest 5 Posts</h3>
+	<nav class="sidebar-menu">
+	<% blog.articles[0...5].each do |article| %>
+		- <a href="<%= article.url %>"><%= article.title %></a><br />
+	<% end %>
+	</nav>
+</aside>

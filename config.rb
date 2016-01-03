@@ -50,13 +50,20 @@ activate :blog do |blog|
 	blog.layout = "blog"
 	blog.sources = "blog/:title.html"
 	blog.paginate = true
+	blog.generate_year_pages = true
 	blog.page_link = "p{num}"
 	blog.per_page = 2
-	blog.tag_template = "tag.html"
-  	blog.calendar_template = "calendar.html"
+	blog.default_extension = ".markdown"
 end
 
 
 #page "/services/*", :layout => "services"
 
 activate :directory_indexes
+
+
+helpers do
+  def is_page_active(page)
+    current_page.url == page ? 'class="is-active"' : ''
+  end
+end

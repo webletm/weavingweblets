@@ -3,12 +3,12 @@
 	    <%= image_tag "logo.svg" %>
 	</a>
     <nav class="wrapper" id="nav">
-        <a href="/">Home</a>
-        <a href="/website-design-and-development">Web Design</a>
-        <a href="/branding-and-graphic-design">Graphic</a>
-        <a href="/google-search-advertising">Advertising</a>
-        <a href="/portfolio">Work</a>
-        <a href="/archive.html">Hints &amp; Tips</a>
-        <a href="/contact">Contact</a>
+        <a <%= is_page_active('/') %> href="/">Home</a>
+        <a <%= is_page_active('/website-design-and-development/') %> href="/website-design-and-development">Web Design</a>
+        <a <%= is_page_active('/branding-and-graphic-design/') %> href="/branding-and-graphic-design">Graphic</a>
+        <a <%= is_page_active('/google-search-advertising/') %> href="/google-search-advertising">Advertising</a>
+        <a <%= is_page_active('/portfolio/') %> href="/portfolio">Work</a>
+        <a <%= is_page_active('/blog/') %> href="/blog">Hints &amp; Tips</a>
+        <a <%= is_page_active('/contact/') %> href="/contact">Contact</a>
     </nav>
 </header>

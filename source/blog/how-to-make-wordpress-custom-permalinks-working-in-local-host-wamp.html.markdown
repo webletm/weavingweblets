@@ -3,6 +3,7 @@ title: "How to make WordPress custom permalinks working in local host (wamp)"
 maintitle: "How to make WordPress custom permalinks working in local host (wamp)"
 date: 2015/05/14
 category: WordPress
+featimg: wamp.png
 excerpt: WordPress Custom Permalinks allow you to display urls in a semantic structure which is search engine friendly. However, if your WordPress is installed in a local server such as WAMP, you’re likely to running into “404 Not Found” issue, once you changed your permalinks settings. Here is a quick guide to show you how to resolve this issue...
 introtext: WordPress Custom Permalinks allow you to display urls in a semantic structure which is search engine friendly. However, if your WordPress is installed in a local server such as WAMP, you’re likely to running into “404 Not Found” issue, once you changed your permalinks settings. Here is a quick guide to show you how to resolve this issue
 ---

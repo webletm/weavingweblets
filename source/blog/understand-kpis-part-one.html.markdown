@@ -4,7 +4,7 @@ maintitle: "Understanding KPIs – Part One"
 date: 2015/05/18
 category: Google Analytics
 excerpt: "Understanding Key Performance Indicators is by far the most valuable asset in harnessing online marketing for both digital marketers and business owners alike. In this series, we are introducing some of the most commonly used KPIs, explaining which stats they are related to, and how we can develop the right strategy by reviewing them correctly."
-featimg: 
+featimg: m-shape-bridge-strings-300x263.jpg
 tags: Google Analytics, Google AdWords, KPIs
 ---
 
