@@ -12,6 +12,10 @@
 			a.preventDefault();
 			$('html, body').animate({scrollTop: $('#contact').offset().top}, 300);
 		})
+		$('a[href="#hero-text"]').on('click', function(a){
+			a.preventDefault();
+			$('html, body').animate({scrollTop: $('#hero-text').offset().top}, 300);
+		})
 	}
 	
 	function hero(){

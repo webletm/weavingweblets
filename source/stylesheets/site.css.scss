@@ -538,8 +538,8 @@ body.portfolio .port:last-child{
 }
 #newsletter input, #newsletter button{
 	width: 260px;
-	height: 30px;
-	line-height: 30px;
+	height: 35px;
+	line-height: 35px;
 	padding: 0px;
 	text-align: left;
 	margin-bottom: 10px;
@@ -815,15 +815,366 @@ code{
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (min-width:320px) {
+@media only screen and (max-width:320px) {
 
 }
-@media only screen and (min-width:480px) {
+
+@media only screen and (max-width:768px) {
+	#nav, .container .page-title, .container .introtext, .wrapper, #contact textarea{
+		width: 100%;
+	}
+	#nav a{
+		width: 108px;
+	}
+	.sidebar-left{
+		display: none;
+	}
+	.page-title, .introtext{
+		
+	}
+	.container{
+		padding: 0px 20px;
+		overflow: hidden;
+		margin: 20px 0px 0px;
+		box-sizing: border-box;
+	}
+	.content{
+		margin-left: 0px;
+		width: 510px;
+		margin-top: 0px !important;
+		border-bottom: none;
+	}
+	.col-three #contact{
+		padding-top: 0px;
+	}
+	#service-widgets .widgets, #contact .widget{
+		margin: 0px !important;
+		width: 33%;
+	}
+	#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"]{
+		width: 32.33%;
+	}
+	#contact input[type="email"]{
+		margin: 0px 1%;
+	}
+	#contact{
+		margin-bottom: 50px;
+	}
+	.hero-img{
+		width: 545px;
+		left: -295px;
+	}
+	#hero .text{
+		position: absolute;
+		right: 0px;
+	}
+	#hero .text a{
+		margin-right: 10px;
+	}
+	#prefer-container{
+		background-size: auto 100%;
+	}
+	#prefer-container .wrapper{
+		padding:  75px 40px;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	#prefer-container p{
+		width: auto;
+	}
+	.port-title, .port-desc{
+		width: 100%;
+		float: left;
+		box-sizing: border-box;
+		margin: 0px;
+		position: relative;
+		padding: 30px 20px;
+	}
+	.port-desc{
+		padding-top: 0px;
+	}
+	#blog article{
+		width: 45%;
+		margin: 0px 2%;
+	}
+	#blog{
+		margin-bottom: 70px;
+	}
+	#newsletter{
+		padding: 30px 0px 45px;
+		height: auto;
+		box-sizing: border-box;
+	}
+	#newsletter{
+		margin-bottom: 60px;
+	}
+	.index #contact, .portfolio #contact{
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
+	.blog #newsletter{
+		width: 110%;
+		left: -5%;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.wrapper, #hero-text, #footer .inner{
+		width: 100%;
+		display: block;
+	}
+	#logo{
+		margin-bottom: 20px;
+	}
+	#nav{
+		width: 100%;
+		height: auto;
+		border: none;
+	}
+	#nav a{
+		display: block;
+		width: 100%;
+		border-bottom:1px solid #f3f3f3;
+		height: 35px;
+		line-height: 35px;
+	}
+	.hero-img{
+		display: none;
+	}
+	#hero-container{
+		height: auto;
+	}
+	#hero .text {
+	    width: 100%;
+	    display: block;
+	    padding: 20px;
+	    box-sizing: border-box;
+	    margin: 0;
+	    position: relative;
+	}
+	#hero .text h2{
+		font: italic normal 20px/30px 'Times New Roman';
+	}
+	#hero .text a{
+		font-size: 18px;
+	}
+	#hero-text{
+		margin: 25px 15px 20px;
+		width: auto;
+		display: block;
+	}
+	#service-widgets, #prefer-container{
+		padding: 20px;
+		margin: 0;
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+	}
+	#service-widgets .widgets{
+		width: 100%;
+		margin: 0px 0px 50px !important;
+	}
+	#service-widgets .desc{
+		min-height: auto;
+	}
+	#prefer-container{
+		background-size: auto 100%;
+		height: auto;
+		margin-bottom: 40px;
+	}
+	#prefer-container .wrapper{
+		margin: 0;
+		padding: 0;
+	}
+	#prefer-container p{
+		width: auto;
+		font-weight: 100;
+		font-size: 15px;
+	}
+	.port-container{
+		width: 100%;
+		height: 275px;
+		float: none;
+		margin: 0px;
+	}
+	.port-title{
+		margin: 20px;
+	}
+	.port-desc{
+		margin: 0px;
+		padding: 0px 20px;
+		width: 90%;
+		box-sizing: content-box;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		-o-column-count: 1;
+		column-count: 1;
+		-webkit-column-gap: 0;
+		-moz-column-gap: 0;
+		-o-column-gap: 0;
+		column-gap: 0;
+	}
+	.port-imac{
+		width: 90%;
+	}
+	.imac-img, .ipad-img, .iphone-img{
+		height: 100%;
+    	width: auto;
+	}
+	.port-imac {
+	    height: 275px;
+	}
+	.port-ipad{
+		width: auto;
+		bottom: -1px;
+	    height: 123px;
+	    right: 0;
+	    left: 166px;
+	}
+	.port-iphone{
+		position: absolute;
+	    width: auto;
+	    height: 110px;
+	    bottom: -3px;
+	    left: 255px;
+	    z-index: 3;
+	}
+	.port-imac .inner {
+	    width: 300px;
+	    height: 189px;
+	    left: 13px;
+	    top: 13px;
+	}
+	.port-ipad .inner {
+	    width: 129px;
+	    height: 98px;
+	    top: 13px;
+	    left: 16px;
+	}
+	.port-ipad .inner img{
+		left: -14px;
+	}
+	.port-iphone .inner {
+	    width: 44px;
+	    height: 78px;
+	    left: 4px;
+	    top: 17px;
+	}
+	#home-portfolio .center-text{
+		border: none;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	#blog{
+		margin-bottom: 40px;
+	}
+	#blog article, #blog article:last-child{
+		width: 100%;
+		margin: 0px 0px 30px;
+		padding: 20px;
+	}
+	#newsletter{
+		padding: 30px 0px 50px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	#newsletter form{
+		padding: 0px;
+	}
+	#newsletter .intro{
+		width: auto;
+		padding: 0px 30px 15px;
+	}
+	#newsletter .sub-title h2{
+		font-size: 32px;
+		line-height: 100%;
+	}
+	#contact .sub-title h2{
+		font-size: 29px;
+	}
+	#contact .widget, #contact .widget:nth-child(2n){
+		width: 100%;
+		margin: 0px 0px 40px;
+	}
+	#contact .widget h3{
+		margin-top: 15px;
+	}
+	#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"]{
+		width: 100%;
+		display: block;
+		margin: 0 0 10px;
+	}
+	form{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0px;
+	}
+	#contact .widgets{
+		margin-bottom: 40px;
+	}
+	#contact textarea{
+		width: 100%;
+	}
+	.container{
+		margin: 30px 0px;
+	}
+	.container, .container .page-title, .container .introtext, .content{
+		width: 100%;
+		float: left;
+		display: block;
+	}
+	.container .introtext, .content{
+		padding: 0px 20px;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+	.sidebar-left, .sidebar-right{
+		display: none;
+	}
+	.content{
+		margin: 0px;
+		padding: 0px;
+		border-bottom: none;
+	}
+	.col-three #contact{
+		padding-top: 30px;
+	}
+	#contact{
+		margin-bottom: 30px;
+	}
+	.content img.alignleft, .content img.alignright{
+		max-width: 45%;
+	}
+	.portfolio .content{
+		padding: 0px;
+	}
+	.portfolio .content img{
+		max-width: none;
+	}
+	body.portfolio #home-portfolio .center-text, body.portfolio #home-portfolio .center-text:last-child{
+		display: none;
+	}
+	.blog .desc{
+		margin-bottom: 20px;
+	}
+	.container .page-title{
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
+	#footer, #footer a, #footer .inner{
+		background: #f3f3f3;
+		border: none;
+	}
+	.contact #contact{
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+
 
 }
-@media only screen and (min-width:768px) {
 
-}
+
 @media only screen and (min-width:1024px) {
 
 }
