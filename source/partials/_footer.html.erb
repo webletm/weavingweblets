@@ -1,3 +1,13 @@
+<nav class="wrapper" id="nav-bottom">
+    <a <%= is_page_active('/') %> href="/">Home</a>
+    <a <%= is_page_active('/website-design-and-development/') %> href="/website-design-and-development">Web Design</a>
+    <a <%= is_page_active('/branding-and-graphic-design/') %> href="/branding-and-graphic-design">Graphic</a>
+    <a <%= is_page_active('/google-search-advertising/') %> href="/google-search-advertising">Advertising</a>
+    <a <%= is_page_active('/portfolio/') %> href="/portfolio">Work</a>
+    <a <%= is_page_active('/blog/') %> href="/blog">Hints &amp; Tips</a>
+    <a <%= is_page_active('/contact/') %> href="/contact">Contact</a>
+</nav>
+
 <footer id="footer" class="full">
 	<div class="inner">
 		Weaving Weblets &copy; <%= Time.now.year %><br /><a href="#">Terms</a> - <a href="#">Privacy</a>

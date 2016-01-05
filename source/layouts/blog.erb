@@ -5,19 +5,14 @@
 				<header class="page-title">
 					<h1><%= current_page.data.maintitle %></h1>
 				</header>
-				<div class="introtext">
-					<h3><%= current_page.data.introtext %></h3>
-				</div>
 				<%= partial 'partials/sidebar-left' %>
 	    		<div class="content">
 		    		<%= yield %>
 	    		</div>
 	    		<%= partial 'partials/blog_single/sidebar-right' %>
 			</div>
-			<%= partial 'partials/newsletter' %>
-			<div id="contact">
-				<%= partial 'partials/contact' %>
-			</div>
 		</div>
+		<%= partial 'partials/newsletter' %>
+		<%= partial 'partials/contact' %>
     <%= partial 'partials/footer' %>
 <%= partial 'partials/foot' %>  

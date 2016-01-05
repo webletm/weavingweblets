@@ -4,8 +4,14 @@
 		'use strict';
 		hero();
 		btnScroll();
-		
+		navMenu();
 	});
+
+	function navMenu(){
+		$('#mobile-menu').on('click', function(){
+			$('#nav').slideToggle(300);
+		});
+	}
 
 	function btnScroll(){
 		$('a[href="#contact"]').on('click', function(a){

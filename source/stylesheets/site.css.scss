@@ -157,7 +157,7 @@ h1 {
 	height: 23px;
 	text-decoration: none;
 }
-#nav a.is-active{
+#nav a.is-active, #nav-bottom a.is-active{
 	color: #ec5a24;
 }
 #nav a:last-child{
@@ -506,6 +506,7 @@ body.portfolio .port:last-child{
 	display: inline-block;
 	position: relative;
 	margin: 0px 13px 10px 0px;
+	max-width: 18%;
 }
 #blog .btn{
 	float: right;
@@ -693,6 +694,9 @@ body.portfolio .port:last-child{
 	border-bottom: 1px solid #c7c7c7;
 	padding: 0px 0px 70px;
 }
+.blog .content{
+	border: none;
+}
 .sidebar .sidebar-title, .content h2, .content article h3{
 	font: italic 100 20px/140% 'Times New Roman';
 	color: $darkTextColor;
@@ -810,6 +814,35 @@ code{
 .sidebar-menu a.is-active{
 	color: #ec5a24;
 }
+.mobile{
+	display: none;
+}
+#nav-bottom a{
+	text-align: center;
+    width: auto;
+    font-family: 'times new roman';
+    font-size: 12px;
+    color: #666666;
+    text-transform: uppercase;
+    float: none;
+    padding: 0px 10px;
+    display: inline-block;
+    height: 23px;
+    text-decoration: none;
+}
+#nav-bottom{
+	clear: both;
+	display: block;
+}
+#nav-bottom a:hover{
+	color: #ec5a24;
+}
+.contact #contact .sub-title h2{
+	color: #ec5a24;
+}
+.contact #contact{
+		margin-top: 20px;
+	}
 
 
 /*------------------------------------*\
@@ -820,14 +853,14 @@ code{
 
 }
 
-@media only screen and (max-width:768px) {
-	#nav, .container .page-title, .container .introtext, .wrapper, #contact textarea{
+@media only screen and (max-width:980px) {
+	#nav, .container .page-title, .container .introtext, .wrapper, #contact textarea, #nav-bottom{
 		width: 100%;
 	}
 	#nav a{
 		width: 108px;
 	}
-	.sidebar-left{
+	.sidebar-left, .sidebar-right{
 		display: none;
 	}
 	.page-title, .introtext{
@@ -840,17 +873,30 @@ code{
 		box-sizing: border-box;
 	}
 	.content{
-		margin-left: 0px;
-		width: 510px;
+		margin-left: 10%;
+		width: 80%;
 		margin-top: 0px !important;
 		border-bottom: none;
+	}
+	.container .introtext{
+		box-sizing: border-box;
+		padding: 0px 10px;
 	}
 	.col-three #contact{
 		padding-top: 0px;
 	}
+	#service-widgets{
+		box-sizing: border-box;
+		padding: 0px 20px;
+	}
 	#service-widgets .widgets, #contact .widget{
 		margin: 0px !important;
 		width: 33%;
+		box-sizing: border-box;
+		padding: 0px 20px;
+	}
+	#service-widgets .widgets img{
+		width: 100%;
 	}
 	#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"]{
 		width: 32.33%;
@@ -909,7 +955,7 @@ code{
 	#newsletter{
 		margin-bottom: 60px;
 	}
-	.index #contact, .portfolio #contact{
+	#contact, #contact{
 		padding: 0px 20px;
 		box-sizing: border-box;
 	}
@@ -919,7 +965,7 @@ code{
 	}
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
 	.wrapper, #hero-text, #footer .inner{
 		width: 100%;
 		display: block;
@@ -927,17 +973,41 @@ code{
 	#logo{
 		margin-bottom: 20px;
 	}
-	#nav{
+	#nav, #nav-bottom{
 		width: 100%;
 		height: auto;
 		border: none;
 	}
-	#nav a{
+	#header{
+		padding-bottom: 0px;
+	}
+	#nav-bottom, #nav{
+		border-top: 1px solid #f3f3f3;
+	}
+	#nav{
+		display: none;
+	}
+	#nav a, #nav-bottom a{
 		display: block;
 		width: 100%;
 		border-bottom:1px solid #f3f3f3;
 		height: 35px;
 		line-height: 35px;
+	}
+	#nav-bottom a{
+		padding: 0;
+	}
+	#mobile-menu{
+		display: block;
+		padding: 5px 0px 10px;
+		overflow: hidden;
+	}
+	#mobile-menu span{
+		width: 25px;
+		height: 2px;
+		margin: 4px auto;
+		display: block;
+		background-color: #000;
 	}
 	.hero-img{
 		display: none;
@@ -963,6 +1033,9 @@ code{
 		margin: 25px 15px 20px;
 		width: auto;
 		display: block;
+	}
+	.container .introtext{
+		margin-bottom: 25px;
 	}
 	#service-widgets, #prefer-container{
 		padding: 20px;
@@ -997,9 +1070,6 @@ code{
 		height: 275px;
 		float: none;
 		margin: 0px;
-	}
-	.port-title{
-		margin: 20px;
 	}
 	.port-desc{
 		margin: 0px;
@@ -1111,7 +1181,7 @@ code{
 		padding: 0px;
 	}
 	#contact .widgets{
-		margin-bottom: 40px;
+		margin-bottom: 0px;
 	}
 	#contact textarea{
 		width: 100%;
@@ -1119,15 +1189,22 @@ code{
 	.container{
 		margin: 30px 0px;
 	}
+	.portfolio .container{
+		padding: 0px;
+	}
+	.portfolio .introtext{
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
 	.container, .container .page-title, .container .introtext, .content{
 		width: 100%;
 		float: left;
 		display: block;
 	}
 	.container .introtext, .content{
-		padding: 0px 20px;
+		/*padding: 0px 20px;
 		box-sizing: border-box;
-		margin-bottom: 20px;
+		margin-bottom: 20px;*/
 	}
 	.sidebar-left, .sidebar-right{
 		display: none;
@@ -1159,7 +1236,7 @@ code{
 		margin-bottom: 20px;
 	}
 	.container .page-title{
-		padding: 0px 20px;
+		
 		box-sizing: border-box;
 	}
 	#footer, #footer a, #footer .inner{
@@ -1170,9 +1247,16 @@ code{
 		padding: 20px;
 		box-sizing: border-box;
 	}
-
-
-
+	#newsletter .sub-title h2{
+		padding: 0px 70px;
+	}
+	#contact .sub-title h2{
+		padding: 0px 30px;
+	}
+	#contact input[type="submit"]{
+		width: 100%;
+		text-align: left;
+	}
 }
 
 

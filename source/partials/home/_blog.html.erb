@@ -14,7 +14,7 @@
 				</h3>
 				<p class="meta"><small>Posted on: <%= article.date.strftime('%b %e %Y') %> | Categorised under: <%= article.data.category %> </small></p>
 				<div class="desc">
-					<%= tag :img, :src => "/images/post-example.jpg", :height => '120px', :width => '78px', :class => 'blog-feat' %>
+					<img src="/images/<%= article.data.featimg %>" class="blog-feat" />
 					<%= article.data.excerpt %>
 				</div>
 				<a href="<%= article.url %>" class="btn">Continue</a>
